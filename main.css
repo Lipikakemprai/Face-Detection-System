@@ -1,0 +1,70 @@
+body        {
+    background: rgb(0, 7, 17);
+    margin: 0;
+    font-family: 'Niramit', sans-serif;
+}
+
+
+.square {
+    width: 30%;
+    background: green;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 30px;
+    transition: all 1.0s;
+}
+
+.container  {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#headLine   {
+    color: white;
+    background: steelblue;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+}
+
+#minHead    {
+    background: white;
+    text-align: center;
+}
+
+.selected   {
+    color: white;
+    background: steelblue;
+}
+
+#colorDisplay   {
+    font-size: 60px;
+}
+
+button  {
+    border: none;
+    font-family: 'Niramit', sans-serif;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 1.0s;
+    outline: none;
+}
+
+#message    {
+    display: inline-block;
+    width: 20%;
+    font-family: 'Niramit', sans-serif;
+    font-weight: 800;
+}
+
+button:hover    {
+    color: white;
+    background: steelblue;
+}
